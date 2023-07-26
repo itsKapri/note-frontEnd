@@ -1,0 +1,21 @@
+:root {
+    --background-color: #FFC700;
+    --bs-primary-rgb: #12296c;
+  }
+i:hover{
+    cursor: pointer;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: #FFC700; */
+  color: var(--bs-primary-rgb);
+  font-weight: 300;
+  font-size: 1.2rem;
+  /* background-image: url(../img/noise-bg.png); */
+}
+  
+  .container-fluid-custom {
+    max-width: 1600px;
+  }
