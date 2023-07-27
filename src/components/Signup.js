@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 
 function Signup() {
   const [credentials, setCredentials] = useState({ name: '', email: '', password: '' });
-  const host = 'http://localhost:5000';
+  const host = 'https://note-backend-djwg.onrender.com';
 
   const navigate = useNavigate();
 

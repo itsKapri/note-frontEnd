@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 function Login(props) {
     const [credentials, setCredentials] = useState({email: "", password: ""}) 
-   const host = "http://localhost:5000"
+   const host = "https://note-backend-djwg.onrender.com"
 
     let Navigate = useNavigate();
     const handleSubmit = async (e) => {

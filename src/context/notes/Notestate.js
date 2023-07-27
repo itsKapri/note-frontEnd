@@ -2,7 +2,7 @@ import noteContext from './noteContext'
 import React, { useState } from "react";
 
 const Notestate = (props) => {
-  const host = "http://localhost:5000";
+  const host = "https://note-backend-djwg.onrender.com";
   const notesInitial = []
   const [notes, setNotes] = useState(notesInitial);
 
